@@ -27,25 +27,27 @@ if(isset($_POST["submit"]))
 </head>
 <body>
 <nav style="padding: 10px;" class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="login.php">
-    <img src="logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
-    Pague Menos
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Produto <span class="sr-only">(Página atual)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="form2.php">Cliente</a>
-      </li>
-      
-    </ul>
-  </div>
-</nav>
+    <a class="navbar-brand" href="login.php">
+        <img src="logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        Pague Menos
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+              <a class="nav-link" href="#">Adicionar Produto<span class="sr-only">(Página atual)</span></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="form2.php">Adicionar Cliente</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="clientes.php">Lista de Clientes</a>
+          </li>
+        </ul>
+    </div>
+  </nav>
 
     <form action="form1.php" method="post" style="margin: 100px;">
 
